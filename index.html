@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abubakar | Portfolio</title>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(6px);
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #00d9ff;
+      animation: slideIn 1.2s ease-out;
+    }
+
+    header p {
+      color: #ddd;
+      font-size: 1.2rem;
+      margin-top: 10px;
+      animation: fadeIn 2s ease-in;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 217, 255, 0.3);
+      transition: 0.4s;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px rgba(0, 217, 255, 0.5);
+    }
+
+    h2 {
+      color: #00d9ff;
+      border-bottom: 2px solid #00d9ff;
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+      font-size: 1.8rem;
+    }
+
+    p {
+      line-height: 1.7;
+      color: #e2e2e2;
+      font-size: 1.05rem;
+    }
+
+    img {
+      display: block;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      margin: 20px auto;
+      box-shadow: 0 0 15px rgba(0, 217, 255, 0.6);
+      animation: float 4s ease-in-out infinite;
+    }
+
+    a {
+      color: #00d9ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Abubakar</h1>
+    <p>B.Sc IT Student | Web Developer in Progress 🚀</p>
+  </header>
+
+  <section>
+    <img src="your-photo.jpg" alt="Abubakar's Photo" />
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm <strong>Abubakar</strong>, a passionate first-year B.Sc IT student with a growing interest in web
+      development and design. I love creating websites that look modern and clean.
+      Currently learning <strong>HTML, CSS, JavaScript</strong> and exploring GitHub & open-source projects.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <p>HTML • CSS • JavaScript • Python (Basics) • Git & GitHub</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <p>
+      ➤ Portfolio Website (You’re looking at it!) <br />
+      ➤ Calculator Web App (Coming Soon) <br />
+      ➤ Student Management System (In Progress)
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: yourname@example.com</p>
+    <p>
+      GitHub:
+      <a href="https://github.com/yourusername">github.com/yourusername</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Abubakar | Made with ❤️ by Me
+  </footer>
+</body>
+</html>
